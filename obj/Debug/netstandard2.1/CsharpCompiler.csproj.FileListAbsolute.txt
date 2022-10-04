@@ -156,8 +156,6 @@ C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netsta
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\CsharpCompiler.csproj.CoreCompileInputs.cache
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\CsharpCompiler.RazorComponent.input.cache
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -169,8 +167,6 @@ C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netsta
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\CsharpCompiler.TagHelpers.output.cache
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\CsharpCompiler.RazorCoreGenerate.cache
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
@@ -553,6 +549,6 @@ C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netsta
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\f0Y5KRHOl0DeI-TPS8SlJtJjPqy209vZDRgEi1wtHTk=.hash
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\ShmGoG_q06uAV_41r-8PsoogApYSJ20A8u-fcfptaLI=.hash
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\QxVC01F1Qd8w2TBPCsNBYZcDUwLPZp92AYWmvtAlKyQ=.hash
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\uA6DBYqeq7lc8N4W5SRuZUgfJdWKh0RI2XN_5VknzSA=.hash
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\u2MZjBuoBu5TVe0vMdkaQIn9f50NJlelEOSYdnUR8Uo=.hash
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\ht4ecUQDrs8dVwG2Q757rwQouVJyIKcNU_XTdrc012I=.hash
+C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\Lo53PwQLOtkXpduEHBwue_R2czpYWwTcMS1isLNMB-c=.hash
+C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\1_5JdQRIEQHjwnVqIjgY5ZBkcQIUIJTWXXQZRKldyDc=.hash
+C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\AcSd7KdFsRrA6Txwx-L5FFyTuRrsTQaD5Dy5hi5VCRE=.hash

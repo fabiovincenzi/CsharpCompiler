@@ -83,7 +83,7 @@ using CsharpCompiler.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\Shared\NavMenu.razor"
+#line 18 "C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
