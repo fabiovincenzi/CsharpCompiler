@@ -12,6 +12,22 @@ namespace CsharpCompiler.Pages
         public string Console { get; set; }
         [Inject]
         protected CompileService service { get; set; }
+        public IndexBase()
+        {
+            CsCode = @"using System;
+
+namespace ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(""Hello World!"");
+        }
+    }
+}
+";
+        }
 
         public async Task Run()
         {
