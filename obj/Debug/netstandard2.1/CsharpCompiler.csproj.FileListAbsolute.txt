@@ -549,6 +549,6 @@ C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netsta
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\f0Y5KRHOl0DeI-TPS8SlJtJjPqy209vZDRgEi1wtHTk=.hash
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\ShmGoG_q06uAV_41r-8PsoogApYSJ20A8u-fcfptaLI=.hash
 C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\QxVC01F1Qd8w2TBPCsNBYZcDUwLPZp92AYWmvtAlKyQ=.hash
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\B18UMbB8icV84N4XAujkSCHZFDWj-BN7MsDBlVENoKE=.hash
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\tPuWmwRUiJErajpu17eP5wQH4wkRMf2_2VZ0iQzfvb0=.hash
-C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\mNWaWnUFp2-k6dJsURgSl3ib6JyLMD3nKlrltSYpIo0=.hash
+C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\wYH8emSAkrZoklKLMPBT44E-S9Axbrf3ver7hNYEjK0=.hash
+C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\ubN8_hadegGuIRXOdTy9BTFcuH9UX6GFLsdlfyMyfNM=.hash
+C:\Users\Fabio Vincenzi\Documents\CsharpCompiler\CsharpCompiler\obj\Debug\netstandard2.1\integrity\G8aCU4dzNS3yfuI0Ii8Sn2SS8SlY2Qxs9RkQjObM9Ow=.hash

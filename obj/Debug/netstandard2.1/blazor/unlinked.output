@@ -50,9 +50,9 @@ obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Logging.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Options.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.JSInterop.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.JSInterop.WebAssembly.dll
+obj\Debug\netstandard2.1\blazor\unlinked\System.Collections.Immutable.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.CodeAnalysis.CSharp.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Reflection.Metadata.dll
-obj\Debug\netstandard2.1\blazor\unlinked\System.Collections.Immutable.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.CodeAnalysis.dll
 obj\Debug\netstandard2.1\blazor\unlinked\System.Text.Encoding.CodePages.dll
 obj\Debug\netstandard2.1\blazor\unlinked\CsharpCompiler.pdb

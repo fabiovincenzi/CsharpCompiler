@@ -28,7 +28,7 @@ namespace CsharpCompiler
             _uriHelper = uriHelper;
         }
 
-        public async Task Init()
+        private async Task Init()
         {
             if (references == null)
             {
@@ -46,9 +46,8 @@ namespace CsharpCompiler
             }
         }
 
-        public async Task<Assembly> Compile(string code)
+        private Assembly Compile(string code)
         {
-            await Init();
             CSharpCompilation compilation = CSharpCompilation.Create("DynamicCode")
                 .WithOptions(new CSharpCompilationOptions(OutputKind.ConsoleApplication))
                 .AddReferences(references)
@@ -80,7 +79,6 @@ namespace CsharpCompiler
             using (var outputAssembly = new MemoryStream())
             {
                 compilation.Emit(outputAssembly);
-
                 return  Assembly.Load(outputAssembly.ToArray());
             }
         }
@@ -88,49 +86,43 @@ namespace CsharpCompiler
         public async Task<string> CompileAndRun(string code)
         {
             await Init();
-
-
             string output = "";
-            Console.WriteLine("Compiling and Running code");
-                var sw = Stopwatch.StartNew();
 
-                var currentOut = Console.Out;
-                var writer = new StringWriter();
-                Console.SetOut(writer);
+            //redirecting console output on a stream writer
+            var currentOut = Console.Out; 
+            var writer = new StringWriter();
+            Console.SetOut(writer);
 
-                Exception exception = null;
-                try
-                {
-                var assembly = await this.Compile(code);
+            var sw = Stopwatch.StartNew(); //recording time
+            string exception = "";
+            try
+            {
+                var assembly = this.Compile(code);
                 if (assembly != null)
+                {
+                    var entry = assembly.EntryPoint;
+                    if (entry.Name == "<Main>") // sync wrapper over async Task Main
                     {
-                        var entry = assembly.EntryPoint;
-                        if (entry.Name == "<Main>") // sync wrapper over async Task Main
-                        {
-                            entry = entry.DeclaringType.GetMethod("Main", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static); // reflect for the async Task Main
-                        }
-                        var hasArgs = entry.GetParameters().Length > 0;
-                        var result = entry.Invoke(null, hasArgs ? new object[] { new string[0] } : null);
-                        if (result is Task t)
-                        {
-                            await t;
-                        }
+                        entry = entry.DeclaringType.GetMethod("Main", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static); // reflect for the async Task Main
+                    }
+                    var hasArgs = entry.GetParameters().Length > 0;
+                    var result = entry.Invoke(null, hasArgs ? new object[] { new string[0] } : null);
+                    if (result is Task t)
+                    {
+                        await t;
                     }
                 }
-                catch (Exception ex)
-                {
-                    exception = ex;
-                }
-                output = writer.ToString();
-                if (exception != null)
-                {
-                    output += "\r\n" + exception.ToString();
-                }
-                Console.SetOut(currentOut);
+            }
+            catch (Exception ex)
+            {
+                exception = ex.ToString();
+            }
+            output = writer.ToString();
+            output += "\r\n" + exception;
+            sw.Stop();
+            output += "Done in " + sw.ElapsedMilliseconds + "ms";
 
-                sw.Stop();
-                Console.WriteLine("Done in " + sw.ElapsedMilliseconds + "ms");
-
+            Console.SetOut(currentOut);
             return output;
         }
     }
