@@ -19,7 +19,6 @@ namespace CsharpCompiler
     {
         private readonly HttpClient _http;
         private readonly NavigationManager _uriHelper;
-        public List<string> CompileLog { get; set; }
         private List<MetadataReference> references { get; set; }
 
 
@@ -33,31 +32,6 @@ namespace CsharpCompiler
         {
             if (references == null)
             {
-                //references = new List<MetadataReference>();
-                //foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
-                //{
-                //    if (assembly.IsDynamic)
-                //    {
-                //        continue;
-                //    }
-                //    var name = assembly.GetName().Name + ".dll";
-                //    Console.WriteLine(name);
-                //    string uri1 = _uriHelper.BaseUri + "/_framework/_bin/";
-                //    string loc = assembly.Location;
-                //    string path = uri1 + loc;
-                //    Console.WriteLine("URI1:" + uri1);
-                //    Console.WriteLine("URI2:" + loc);
-                //    Console.WriteLine("FINAL:" + path);
-                //    try
-                //    {
-                //        var s = await this._http.GetStreamAsync(path);
-                //        references.Add(
-                //            MetadataReference.CreateFromStream(s));
-                //    }
-                //    catch (Exception ex)
-                //    {
-                //        Console.WriteLine(ex.Message);
-                //    }
                 var response = await _http.GetFromJsonAsync<BlazorBoot>("_framework/blazor.boot.json");
                 var assemblies = await Task.WhenAll(response.resources.assembly.Keys.Select(x => _http.GetAsync("_framework/_bin/" + x)));
 
