@@ -4,9 +4,12 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.Emit;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Json;
 using System.Reflection;
 using System.Threading.Tasks;
 
@@ -30,27 +33,40 @@ namespace CsharpCompiler
         {
             if (references == null)
             {
-                references = new List<MetadataReference>();
-                foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
-                {
-                    if (assembly.IsDynamic)
-                    {
-                        continue;
-                    }
-                    var name = assembly.GetName().Name + ".dll";
-                    Console.WriteLine(name);
+                //references = new List<MetadataReference>();
+                //foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
+                //{
+                //    if (assembly.IsDynamic)
+                //    {
+                //        continue;
+                //    }
+                //    var name = assembly.GetName().Name + ".dll";
+                //    Console.WriteLine(name);
+                //    string uri1 = _uriHelper.BaseUri + "/_framework/_bin/";
+                //    string loc = assembly.Location;
+                //    string path = uri1 + loc;
+                //    Console.WriteLine("URI1:" + uri1);
+                //    Console.WriteLine("URI2:" + loc);
+                //    Console.WriteLine("FINAL:" + path);
+                //    try
+                //    {
+                //        var s = await this._http.GetStreamAsync(path);
+                //        references.Add(
+                //            MetadataReference.CreateFromStream(s));
+                //    }
+                //    catch (Exception ex)
+                //    {
+                //        Console.WriteLine(ex.Message);
+                //    }
+                var response = await _http.GetFromJsonAsync<BlazorBoot>("_framework/blazor.boot.json");
+                var assemblies = await Task.WhenAll(response.resources.assembly.Keys.Select(x => _http.GetAsync("_framework/_bin/" + x)));
 
-                    string path = _uriHelper.BaseUri + "/_framework/_bin/" + name;
-                    Console.WriteLine(path);
-                    try
+                references = new List<MetadataReference>(assemblies.Length);
+                foreach (var asm in assemblies)
+                {
+                    using (var task = await asm.Content.ReadAsStreamAsync())
                     {
-                        var s = await this._http.GetStreamAsync(path);
-                        references.Add(
-                            MetadataReference.CreateFromStream(s));
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
+                        references.Add(MetadataReference.CreateFromStream(task));
                     }
                 }
             }
@@ -59,65 +75,89 @@ namespace CsharpCompiler
         public async Task<Assembly> Compile(string code)
         {
             await Init();
+            CSharpCompilation compilation = CSharpCompilation.Create("DynamicCode")
+                .WithOptions(new CSharpCompilationOptions(OutputKind.ConsoleApplication))
+                .AddReferences(references)
+                .AddSyntaxTrees(CSharpSyntaxTree.ParseText(code, new CSharpParseOptions(LanguageVersion.Preview)));
+            ImmutableArray<Diagnostic> diagnostics = compilation.GetDiagnostics();
 
-            SyntaxTree syntaxTree = CSharpSyntaxTree.ParseText(code, new CSharpParseOptions(LanguageVersion.Preview));
-            foreach (var diagnostic in syntaxTree.GetDiagnostics())
+            bool error = false;
+            foreach (Diagnostic diag in diagnostics)
             {
-                CompileLog.Add(diagnostic.ToString());
+                switch (diag.Severity)
+                {
+                    case DiagnosticSeverity.Info:
+                        Console.WriteLine(diag.ToString());
+                        break;
+                    case DiagnosticSeverity.Warning:
+                        Console.WriteLine(diag.ToString());
+                        break;
+                    case DiagnosticSeverity.Error:
+                        error = true;
+                        Console.WriteLine(diag.ToString());
+                        break;
+                }
             }
-
-            if (syntaxTree.GetDiagnostics().Any(i => i.Severity == DiagnosticSeverity.Error))
+            if (error)
             {
-                CompileLog.Add("Parse SyntaxTree Error!");
                 return null;
             }
 
-            CompileLog.Add("Parse SyntaxTree Success");
-
-            CSharpCompilation compilation = CSharpCompilation.Create("CompileBlazorInBlazor.Demo", new[] { syntaxTree },
-                references, new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary));
-
-            using (MemoryStream stream = new MemoryStream())
+            using (var outputAssembly = new MemoryStream())
             {
-                EmitResult result = compilation.Emit(stream);
+                compilation.Emit(outputAssembly);
 
-                foreach (var diagnostic in result.Diagnostics)
-                {
-                    CompileLog.Add(diagnostic.ToString());
-                }
-
-                if (!result.Success)
-                {
-                    CompileLog.Add("Compilation error");
-                    return null;
-                }
-
-                CompileLog.Add("Compilation success!");
-
-                stream.Seek(0, SeekOrigin.Begin);
-
-                //                var context = new CollectibleAssemblyLoadContext();
-                Assembly assemby = AppDomain.CurrentDomain.Load(stream.ToArray());
-                return assemby;
+                return  Assembly.Load(outputAssembly.ToArray());
             }
-
-            return null;
         }
 
         public async Task<string> CompileAndRun(string code)
         {
             await Init();
 
-            var assemby = await this.Compile(code);
-            if (assemby != null)
-            {
-                var type = assemby.GetExportedTypes().FirstOrDefault();
-                var methodInfo = type.GetMethod("Run");
-                var instance = Activator.CreateInstance(type);
-                return (string)methodInfo.Invoke(instance, new object[] { "my UserName", 12 });
-            }
 
-            return null;
+            string output = "";
+            Console.WriteLine("Compiling and Running code");
+                var sw = Stopwatch.StartNew();
+
+                var currentOut = Console.Out;
+                var writer = new StringWriter();
+                Console.SetOut(writer);
+
+                Exception exception = null;
+                try
+                {
+                var assembly = await this.Compile(code);
+                if (assembly != null)
+                    {
+                        var entry = assembly.EntryPoint;
+                        if (entry.Name == "<Main>") // sync wrapper over async Task Main
+                        {
+                            entry = entry.DeclaringType.GetMethod("Main", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static); // reflect for the async Task Main
+                        }
+                        var hasArgs = entry.GetParameters().Length > 0;
+                        var result = entry.Invoke(null, hasArgs ? new object[] { new string[0] } : null);
+                        if (result is Task t)
+                        {
+                            await t;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    exception = ex;
+                }
+                output = writer.ToString();
+                if (exception != null)
+                {
+                    output += "\r\n" + exception.ToString();
+                }
+                Console.SetOut(currentOut);
+
+                sw.Stop();
+                Console.WriteLine("Done in " + sw.ElapsedMilliseconds + "ms");
+
+            return output;
         }
     }
 }

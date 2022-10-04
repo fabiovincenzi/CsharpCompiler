@@ -1,179 +1,144 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\06DppFsWFRXKPYE2Px6MUPyRPT9k3oD_EDvzjmCoFqI=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\cs\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fGjivYGB3xLT9ydiN428ExEFpAG1UkhipZ15P7nYaZE=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\cs\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cs\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mNh_WMO67oi0k22C3gesBL0IFjaI5GBz7in9rY0smnQ=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\de\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fRSsj1PfDwMjgsZ9jDdhQJ9XoQ4vLKJTdROHEfu9q5Y=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\de\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/de\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3Zju5tZLweiNLt_kEhyXNuAvQUPin29XPFSm7lyB6OA=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\es\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eBDklRZUNuxgxmlparCI5aP2lFThnFnO3RGLBRho4yM=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\es\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/es\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pAdMS0WevODitst80RErR9oF3bmYNIRywueNJ60lpaU=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\fr\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\uY9WXebQAYBJq_AJzHLNFdyP7AZmXcRNOYJSjHNL49Y=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\fr\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/fr\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\I6vgA-W9GL1pETTjgOmxl05wIc5LDV-A29ZHQZRfHEQ=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\it\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\azeNV4r0-7r-CeBLqp3l3TOxSUkl1sJ69YJn23M1SYY=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\it\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/it\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FR41xcF93sJKMtprQRDlsJurPbxzVfRxVZQXw2Cv0yg=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JauZckplhSKYeDkQKRs6dcFEpFzWd-1pNZwnC6UoyHs=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ja\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7R5c7eD07vNGaQvMAyykNeRZbiSc4gcrjN3AjsdhviU=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HHcts2RtTOOXE1_M2-gmGIM9TraJu7Z04-Zj0Vocpv4=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ko\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rw4qFl1TbG-gv1C3EOSW4vL2wNjCu3umtK-6va9k1Zo=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\pl\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\MxCV18DUz0SUdQH9_o4LA8YUjVmfT3sYkaOQf1048V4=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\pl\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pl\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ngZnv2DYoU14FohJr2uDp-DuNAv4ZwUvwwP7Apz4KSE=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\pt-BR\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NKG2VBYLrM4euzNiyMsFCm9TBxQHu5wCDGnVZ2d6h9I=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\pt-BR\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pt-BR\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qGqzScuK6NKUcb1YFHOL8PCQW6JpSGzcizB_Gcm8CSY=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\ru\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\sDu_pObpKC5tXwIQcCOkyHriZDS09ZPIDrb7AVsfH1o=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\ru\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ru\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_xZYVGpYc2igQqtsdi6cEd30_D840i4GhfRYM-nZxH8=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\tr\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oOBPUXIDaAPHUaxswZVwpf1BiAJYD1I39F_C0_7YZsY=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\tr\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/tr\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\c940XXCpZkfCtf3VLmhApInTAeOX2epKE-DiL7762YE=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\zh-Hans\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\d2ZLLcM6nfGIxqHb6J8q_7nLF9CluaZDzcCaY__5lNc=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\zh-Hans\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hans\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\x9E2noIA8WAtgmh7gpXES3HfOJfC8OSGfQAX-i8Sji8=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\lib\\netstandard2.0\\zh-Hant\\Microsoft.CodeAnalysis.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\cay4N9Qxdb_rAH_EtlJPV4gVfbROwg1otyV3CPimg1w=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\lib\\netstandard2.0\\zh-Hant\\Microsoft.CodeAnalysis.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hant\/Microsoft.CodeAnalysis.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fJOF1hCQKkLnpCQQXUCoGgcshUJQ2_OWC_g88aprxjU=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\cs\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BN9dhptOWgMksXqDY2yLA2NhzCcABvRlVTkdg_wpp80=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\cs\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cs\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8eesxreU8Wimxi7wSAXlwNKT8tlysAfhlFF9GBNNRKw=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\c2BlQQWacfgcbYfPLXx3VALZz3pRfB_Ik8jwx4i3EYE=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/de\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\K13z-COQ0hzNf6zvyzjQcpxSt-aErtRLpa8bUMoCkEk=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\es\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FcUZ-wQFZZIST2zEPeYY1c1eWN2O-MbtcKeCdC1Z8ig=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\es\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/es\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7TPOCZ7O8kzdhoq6qpRvFkW7WXvzsDySimAzwhrjFhw=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\fr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\UBjr1nfO5XpxOv3Xeoe5sJfY80suvO9objOYeyUUmOo=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\fr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/fr\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\uWbS0f9mQ1_ZcTe_mwWWZqNnZF0oqmrhvR3deiKptsg=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\it\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\i0aGA4xU9YMa98sjevOEdXAbixdLCvNnvNsYmihtJJQ=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\it\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/it\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\aM6uHGdVD3K4tU73oB6h5iYl21Lk006ZOthdSiCDqZY=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5vm0ayMzY1D4Khx_5fUnx97yOyx1-eMX772er-8mMAY=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ja\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2u_8zjoQfsu1dZ9bKHN-gWuNQltDMxWnZ9Dv5vl5NjM=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2lV5NaiEAG-vbT4mQZxzmUl2IuCyq1ToPgJzk0C67pI=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ko\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eEzToJFLhcAgKG8e65cyoZKHHb2rU65o-TmlwG0ZyyE=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\pl\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ajUD3EB5yRbUlh74kaeKY5AHhivd4-oF-ktTnhyhzD8=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\pl\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pl\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bDwEedChy4yc8ZDi1uWdTgy1D8FGkFbzKXOSFbFnjwU=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2jAtWAvpPPROseLg7BmYEVowoXo2bJI98zJNKio6vxo=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pt-BR\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pVAQEuxts3cdVrkyRFTvz6cGhupqHLCOKTmPZNfqmFg=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\ru\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BHnb7QdVMFLHXg8m_06bGzXhifhpBh3YYsFepiZjrSY=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\ru\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ru\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8gpTM9LKYeXDOpwsAuIb4sqbllgJduFIVKyGmypnUMw=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\tr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\USclGwFAqIl2Ey-PGKHGNW7MxQYLtii7-30kec_D788=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\tr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/tr\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BplAnR7_EOeLYvdwDTZNBTfDkEbpLhkRFCM7i06Uoyg=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\zh-Hans\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\H10GLGR81VeGsv7m8t0Nc3lvClwSsGZLQo44z6qBODQ=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\zh-Hans\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hans\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BoLxd3rBABRAXaNb8UTXF8I5r8U-_jmkAnNPeRCZieY=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\lib\\netstandard2.0\\zh-Hant\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1FlyyphUtTjKLZUHVR7zSiZWxvgiVT-coclPUkrHBkI=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\lib\\netstandard2.0\\zh-Hant\\Microsoft.CodeAnalysis.CSharp.resources.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hant\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\n-vweQK3SWnM_dlLTBT2IVa7Day1lttRp0MlAPTgxho=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\uA6DBYqeq7lc8N4W5SRuZUgfJdWKh0RI2XN_5VknzSA=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\CsharpCompiler.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/CsharpCompiler.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.Json.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Buffers.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Buffers.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\mscorlib.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.Extensions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.Extensions.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Memory.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Memory.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Json.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.CompilerServices.Unsafe.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OBWh2or_2mU6elwqPfmL72FBZVKl2WzTJ4L-IrKeXM4=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.AsyncInterfaces.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Bs1Wrmh4ex9dTEIT0yCRF52N-wOmsBDt457BHr0-ssM=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash",
@@ -199,6 +164,16 @@
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ob5gN-szfb1CwWnyQWvWvuid3u4df593KvZeoJQEaKc=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\WebAssembly.Net.WebSockets.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Net.WebSockets.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Memory.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Memory.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\mscorlib.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6XMT1eT3svGdg6hFzAHJscYdTQjakoYccYTdHmKSr7Y=.hash",
@@ -276,6 +251,36 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.Json.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Buffers.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Buffers.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.Extensions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.Extensions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Json.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OBWh2or_2mU6elwqPfmL72FBZVKl2WzTJ4L-IrKeXM4=.hash",
+      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Numerics.Vectors.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.Vectors.dll.br"
@@ -284,11 +289,6 @@
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Tqh1Da_iTRQJEZUGAsMNFuZ4hf1PMf13WApRZod_uw4=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Encodings.Web.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Bs1Wrmh4ex9dTEIT0yCRF52N-wOmsBDt457BHr0-ssM=.hash",
-      "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
@@ -391,22 +391,22 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qVKga2P6EVT_LI_QLJTdfmQT7wNYnbMKIsj6oMMdfYo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\0BROuPK-enM1BZCrbkbFSZYLsMeRyxhr5JtaTtKQrcM=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CodeAnalysis.CSharp.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CodeAnalysis.CSharp.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HrR2KzTVJLcS2SItvDR1SnMdtXV62kPc0bdHDnusgVU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LhgHZ-FBXLW77RRFDh1AA89Wqdpq6vkc6WmkudKlQxQ=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Metadata.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Metadata.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EgCw1ktlTDGB6AgkuibYISNfygO8jS83Se5wbfzFr5c=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LwWixInC0wpsyjRtTOGEMj1w609a_mvtNNWAAnRETlc=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Collections.Immutable.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Immutable.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dWQlRgq4ijF8DJgePrcYAVg23zPb1WUInPMSbdcSQlY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\f0Y5KRHOl0DeI-TPS8SlJtJjPqy209vZDRgEi1wtHTk=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CodeAnalysis.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CodeAnalysis.dll.br"
     },
@@ -416,17 +416,17 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encoding.CodePages.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lBAmr3Foo9ttJrwDQ4IjwHD6ZhGCmtvb45HW2e9WLwU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\u2MZjBuoBu5TVe0vMdkaQIn9f50NJlelEOSYdnUR8Uo=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\CsharpCompiler.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/CsharpCompiler.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KLlvIdhufCg_a62JQ5OGxiKqjels6tUu9DNQK2mentY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ShmGoG_q06uAV_41r-8PsoogApYSJ20A8u-fcfptaLI=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CodeAnalysis.CSharp.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CodeAnalysis.CSharp.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DNSNIDP0psO3eSxin_9N_WS8xC5kUMu932WATlaYYFA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\QxVC01F1Qd8w2TBPCsNBYZcDUwLPZp92AYWmvtAlKyQ=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CodeAnalysis.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CodeAnalysis.pdb.br"
     },
@@ -451,7 +451,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\E-BBn-xFhxOowScrqMwlxm7bKRvhvKsfotXuLVnPAa4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ht4ecUQDrs8dVwG2Q757rwQouVJyIKcNU_XTdrc012I=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
