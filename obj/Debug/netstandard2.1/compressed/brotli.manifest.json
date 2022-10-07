@@ -131,7 +131,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hant\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_k1Sdif8Mry-JbFGg0BNTNU1dOS67WbTg6w-erqRXJ4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6hXvqb-qyBLuzCdj13W3AlBjIeYqZkRhwFgXObt7t9E=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\CsharpCompiler.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/CsharpCompiler.dll.br"
     },
@@ -391,7 +391,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LwWixInC0wpsyjRtTOGEMj1w609a_mvtNNWAAnRETlc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EgCw1ktlTDGB6AgkuibYISNfygO8jS83Se5wbfzFr5c=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Collections.Immutable.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Immutable.dll.br"
     },
@@ -401,7 +401,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CodeAnalysis.CSharp.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LhgHZ-FBXLW77RRFDh1AA89Wqdpq6vkc6WmkudKlQxQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\iJHhe6HWT8xlMUr4OE-g-s6oQhhjnyG-bxHE7enLcas=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Metadata.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Metadata.dll.br"
     },
@@ -416,7 +416,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encoding.CodePages.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Vz16BRA0VwHat-DiWnMke19wcNRIhUjX6T0VYthaPes=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\XQand1q6J5xyALsJTCoC5RLpU-ooCAOB8jWqnF1HMeg=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\CsharpCompiler.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/CsharpCompiler.pdb.br"
     },
@@ -451,7 +451,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tcpSct-W3UPhoYCQ_uap52SDV3STyztUL-QxDnYPFfY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eSE3diO4xT4Q28ryxdhyrZCYYCf6O0UsUFZhraKVT4E=.hash",
       "Source": "C:\\Users\\Fabio Vincenzi\\Documents\\CsharpCompiler\\CsharpCompiler\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
